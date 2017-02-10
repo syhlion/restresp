@@ -38,7 +38,7 @@ func TestWrite(t *testing.T) {
 			status, http.StatusOK)
 	}
 
-	expected := `{"success":{"code":5,"msg":"wtf"}}`
+	expected := `{"error":{"code":5,"msg":"wtf"}}`
 	body := strings.TrimSpace(rr.Body.String())
 	if body != expected {
 		t.Errorf("handler returned unexpected body: got %v want %v",
