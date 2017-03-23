@@ -1,5 +1,7 @@
 # rest response
 
+[![Go Report Card](https://goreportcard.com/badge/github.com/syhlion/restresp)](https://goreportcard.com/report/github.com/syhlion/restresp)
+[![Build Status](https://travis-ci.org/syhlion/restresp.svg?branch=master)](https://travis-ci.org/syhlion/restresp)
 
 ## Install
 

@@ -5,6 +5,7 @@ import (
 	"net/http"
 )
 
+//Write http response write restful api style
 func Write(w http.ResponseWriter, data interface{}, httpStatus int) {
 	_, ok := data.(error)
 	w.Header().Set("Content-Type", "application/json;charset=UTF-8")
